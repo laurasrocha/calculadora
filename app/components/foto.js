@@ -3,14 +3,17 @@ import React from 'react'
 
 export default function Foto() {
     return (
-        <div className=" w-[450px] h-[350px]">
-            <Image
-                src="/calculer.png"
-                alt="imageeemmm"
-                width={450}
-                height={350}
-            />
+        <div className="w-full ">
+            <div className="w-[450px] h-[350px]">
+                <Image
+                    src="/imgcalc.svg"
+                    alt="imageeemmm"
+                    width={450}
+                    height={350}
+                    className="rounded-2xl"
+                />
 
+            </div>
         </div>
     )
 }
