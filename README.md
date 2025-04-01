@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📌 Calculadora React com Next.js e Tailwind CSS
 
-## Getting Started
+## 📖 Sobre o Projeto
+Este projeto é uma **calculadora** desenvolvida com **React**, **Next.js**, **Tailwind CSS** e **JavaScript**. Ela permite realizar operações matemáticas básicas, como **soma, subtração, multiplicação e divisão**.
 
-First, run the development server:
+## 🚀 Tecnologias Utilizadas
+- [React](https://reactjs.org/)
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🎨 Layout
+A interface foi construída com **Tailwind CSS**, garantindo um design moderno e responsivo.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📦 Como Rodar o Projeto
+### Pré-requisitos
+Antes de começar, certifique-se de ter instalado em sua máquina:
+- [Node.js](https://nodejs.org/)
+- [Git](https://git-scm.com/)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Passos para rodar localmente
+1. Clone o repositório:
+   ```sh
+   git clone https://github.com/laurasrocha/calculadora.git
+   ```
+2. Acesse a pasta do projeto:
+   ```sh
+   cd calculadora
+   ```
+3. Instale as dependências:
+   ```sh
+   npm install
+   ```
+4. Inicie o servidor de desenvolvimento:
+   ```sh
+   npm run dev
+   ```
+5. Acesse no navegador:
+   ```sh
+   http://localhost:3000
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 📌 Funcionalidades
+✅ Soma, subtração, multiplicação e divisão de números.
+✅ Design moderno com Tailwind CSS.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## 📝 Licença
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
